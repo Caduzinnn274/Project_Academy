@@ -1,0 +1,112 @@
+.container_1{
+    text-align: center;
+    
+}
+
+.img_container_1{
+    text-align: center;
+    border-radius: 25px;
+    height: 0rem;
+    width: 0rem;
+}
+.titulo_sobre{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.texto_sobre{
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.sobre_1{
+    
+   height: 35rem;
+   width: 35rem;
+   background-color: #00C9FF;
+   border-radius: 25px;
+   
+
+}
+.sobre_2{
+    
+    height: 35rem;
+    width: 35rem;
+    background-color: #ffde59;
+    border-radius: 25px;
+ 
+ }
+
+ .botao {
+    position: relative;
+    background-color: #f4511e;
+    border: none;
+    border-radius: 25px;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 10rem;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .botao:after {
+    content: "";
+    background: #ec8566;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .botao:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+  .botao:hover{
+ 
+     transition: scale(2);
+ 
+  }
+ 
+
+ 
+        
+
+@media screen and (min-width: 1000px){
+    .img_container_1{
+       
+        height: 35rem;
+        width: 100rem;
+    }
+    
+    .texto_sobre{
+        font-size: 2rem;
+        text-align: center;
+    
+    }
+
+    .botao{
+        width: 200px;
+        
+    }
+
+}
